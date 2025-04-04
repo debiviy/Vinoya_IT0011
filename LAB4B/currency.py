@@ -1,7 +1,7 @@
 import csv
 
 def load_exchange_rates(filename):
-    """Loads exchange rates from a CSV file into a dictionary."""
+    #Loads exchange rates from a CSV file into a dictionary.
     exchange_rates = {}
     try:
         with open(filename, mode='r', newline='', encoding='ISO-8859-1') as file:
@@ -21,7 +21,7 @@ def load_exchange_rates(filename):
     return exchange_rates
 
 def convert_currency(amount, currency, rates):
-    """Converts the given amount from USD to the target currency using exchange rates."""
+    #Converts the given amount from USD to the target currency using exchange rates.
     if currency in rates:
         return amount * rates[currency]
     else:
