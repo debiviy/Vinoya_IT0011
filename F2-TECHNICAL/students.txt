@@ -1,0 +1,1 @@
+Last Name: & "C:/Users/Kendra Vinoya/AppData/Local/Programs/Python/Python313/python.exe" "c:/Users/Kendra Vinoya/OneDrive/Documents/GitHub/Vinoya_IT0011/F2-TECHNICAL/act3.4.py", First Name: davee, Age: 19, Contact Number: 09560863249, Course: it
